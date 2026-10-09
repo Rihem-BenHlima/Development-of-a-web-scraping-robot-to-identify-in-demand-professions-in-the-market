@@ -63,4 +63,4 @@ The analysis notebook expects a folder of `;`-separated CSV files with the colum
 
 ## Data usage
 
-The data was collected from LinkedIn in 2025 and is for academic use only, with no redistribution. It is used only for analysis and learning, never for commercial purposes. For this reason, the raw data and the collection code are not published in this repository.
+The data was collected from LinkedIn in 2025 and is for academic use only, with no redistribution. It is used only for analysis and learning, never for commercial purposes.
