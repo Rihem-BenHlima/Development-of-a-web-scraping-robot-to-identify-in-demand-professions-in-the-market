@@ -1,0 +1,28 @@
+# Sensitive data
+.env
+*.env
+!.env.example
+
+# Scraping code (kept local, not published)
+Step_1/Scraping.ipynb
+
+# Scraped LinkedIn data (kept local to respect LinkedIn's terms)
+Step_1/Extracted_Jobs/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+venv/
+.venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Drivers
+chromedriver.exe
