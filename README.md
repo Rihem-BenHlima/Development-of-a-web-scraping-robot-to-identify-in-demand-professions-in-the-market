@@ -31,7 +31,7 @@ This project develops a tool that collects job listings in order to:
 
 ```
 P2M/
-├── Step_1/                     # Data collection (local only, not pushed)
+├── Step_1/                     # Data collection
 │   ├── Scraping.ipynb          # Collection robot
 │   └── Extracted_Jobs/         # One CSV per profession
 ├── Step_2/
