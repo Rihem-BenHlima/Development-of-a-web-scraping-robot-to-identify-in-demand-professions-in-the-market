@@ -15,8 +15,8 @@ This project develops a tool that collects job listings in order to:
 
 ## Pipeline
 
-1. **Step 1 – Data collection.** A Selenium-based robot gathers job postings and stores one CSV per profession with: job title, company name, time posted, location, link.
-2. **Step 2 – Analysis** (`Step_2/Job_Market_Analysis.ipynb`):
+1. **Step 1 – Data collection**: A Selenium-based robot gathers job postings and stores one CSV per profession with: job title, company name, time posted, location, link.
+2. **Step 2 – Analysis**:
    1. Merges all CSV files into a single DataFrame.
    2. Translates job titles to English (`translatepy`) so French and English titles are comparable.
    3. Cleans the data: removes unused columns, missing values and normalizes titles.
